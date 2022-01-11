@@ -1,12 +1,12 @@
 import './App.css';
+import Slide from './Componenets/Slide';
 import Home from './Pages/Home';
-import HomeIcon from '@mui/icons-material/Home';
 
 function App() {
   return (
     <div className="App">
       <Home />
-      <HomeIcon />
+      <Slide />
     </div>
   );
 }
